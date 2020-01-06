@@ -75,6 +75,7 @@ public class Home {
             System.out.println("Для продолжения работы нажмите y");
             aContinue = scanner.next().equals("y");
         } while (aContinue);
+        System.out.println("1");
     }
 
     public static void main(String[] args) {
